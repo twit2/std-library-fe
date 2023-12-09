@@ -1,2 +1,8 @@
+// Basics
+@import "./fonts.scss";
+
 // Component styles
 @import "../components/basic/LoadingContainer.scss"; 
+@import "../components/form/ErrorBox.scss";
+@import "../components/form/Form.scss";
+@import "../components/form/FormInputField.scss"; 
