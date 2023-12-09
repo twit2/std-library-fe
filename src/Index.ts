@@ -8,6 +8,7 @@ import { APIError } from "./api/APIError"
 import { sendAPIRequest, assertResponse } from "./api/APIRequester"
 import { APIResponse } from "./api/APIResponse"
 import { PaginatedAPIData } from "./api/PaginatedAPIData"
+import { LoadingContainer } from "./components/basic/LoadingContainer"
 
 export {
     DataObject,
@@ -20,5 +21,8 @@ export {
     sendAPIRequest,
     assertResponse,
     APIResponse,
-    PaginatedAPIData
+    PaginatedAPIData,
+
+    // UI Components
+    LoadingContainer
 }
