@@ -5,6 +5,7 @@ export interface PartialUser {
     avatarURL?: string | null;
     biography?: string | null;
     dateJoined: string;
+    verified: boolean;
     followCount: number;
     followingCount: number;
 }
