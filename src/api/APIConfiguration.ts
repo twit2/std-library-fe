@@ -14,10 +14,8 @@ let config : APIConfig = {} as APIConfig;
 updateApiConfig(window.location.protocol, window.location.host);
 
 export function updateApiConfig(protocol: string, host: string) {
-    config = {
-        apiGwUrl: `${protocol}//api.${host}/api/v1`,
-        apiCdnUrl: `${protocol}//cdn.${host}`
-    };
+    config.apiGwUrl = `${protocol}//api.${host}/api/v1`;
+    config.apiCdnUrl = `${protocol}//cdn.${host}`;
 }
 
 export const APIConfiguration = config;
