@@ -5,7 +5,8 @@
   "main": "dist/Index.js",
   "types": "dist/Index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "npm run sass:build && tsc",
+    "sass:build": "sass src/style/global.scss dist/global.css",
     "postinstall": "npm run build",
     "test": "npx jest test.ts",
     "test-unit": "npx jest unit.test.ts",

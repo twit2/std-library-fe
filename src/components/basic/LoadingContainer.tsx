@@ -1,5 +1,4 @@
 import React from "react";
-import "./LoadingContainer.scss";
 
 /**
  * Represents a loading container.
