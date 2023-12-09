@@ -3,7 +3,7 @@ import { Post } from "./api/posts/Post"
 import { PartialUser } from "./api/user/PartialUser"
 import { APIObjectStore } from "./api/util/APIObjectStore"
 import { fileToBase64 } from "./api/util/FileToBase64"
-import { APIConfiguration } from "./api/APIConfiguration"
+import { APIConfiguration, updateApiConfig } from "./api/APIConfiguration"
 import { APIError } from "./api/APIError"
 import { sendAPIRequest, assertResponse } from "./api/APIRequester"
 import { APIResponse } from "./api/APIResponse"
@@ -25,6 +25,7 @@ export {
     assertResponse,
     APIResponse,
     PaginatedAPIData,
+    updateApiConfig,
 
     // UI Components
     LoadingContainer,
