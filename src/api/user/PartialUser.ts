@@ -3,6 +3,7 @@ export interface PartialUser {
     displayName?: string | null;
     username: string;
     avatarURL?: string | null;
+    bannerURL?: string | null;
     biography?: string | null;
     dateJoined: string;
     verified: boolean;
