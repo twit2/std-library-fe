@@ -6,6 +6,7 @@ __*
 
 # Ignore git strip
 /__gitstrip
+/coverage
 
 # storybook static contents
 /storybook-static
